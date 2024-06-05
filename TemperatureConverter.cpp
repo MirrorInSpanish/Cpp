@@ -7,7 +7,7 @@ int main()
 //Outputs "Enter value for Fahrenheit to convert into Celsius: "
   cout  << "Enter value for Fahrenheit to convert into Celsius: ";
 
-//Initializes variable f as a float
+//Initializes variable f as a double
   double f;
 
 //Asks user to input a variable and assigns that variable to f
