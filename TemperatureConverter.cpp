@@ -7,14 +7,15 @@ int main()
 //Outputs "Enter value for Fahrenheit to convert into Celsius: "
   cout  << "Enter value for Fahrenheit to convert into Celsius: ";
 
-//Initializes variable f as a double
-  double f;
+//Initializes variable fahrenheit as a double
+  double fahrenheit;
 
-//Asks user to input a variable and assigns that variable to f
-  cin   >> f;
+//Asks user to input a value and assigns that value to fahrenheit
+  cin   >> fahrenheit;
 
-//Outputs the value of f subtracted by 32 multipled by the value of 5 divided by 9, which is the celsius conversion  
-  cout  << (f - 32) * 5/9 << endl;
+//Evaluates the value of fahrenheit subtracted by 32 divided by 1.8 and initializes the value double celsius with that value, then outputs "Celsius: ", then outputs celsius
+  double celsius = (fahrenheit - 32) / 1.8;
+  cout << "Celsius: " << celsius << endl;
   
   return 0;
 }
