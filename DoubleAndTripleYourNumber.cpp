@@ -1,5 +1,5 @@
 //A program for doubling a given integer and outputing the value
-//A program for trippling a given integer and outputing the value
+//A program for tripling a given integer and outputing the value
 
 #include <iostream>
 
